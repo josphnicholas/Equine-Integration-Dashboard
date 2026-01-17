@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equine Integration Dashboard</title>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="dashboard-container">
+
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="#" alt="Logo">
+            </div>
+
+            <nav class="nav-icons">
+                <button class="nav-icon active">Home</button>
+                <button class="nav-icon">Calendar</button>
+                <button class="nav-icon">Horses</button>
+                <button class="nav-icon">Analytics</button>
+                <button class="nav-icon">Health</button>
+                <button class="nav-icon">Notifications</button>
+                <button class="nav-icon">Export</button>
+                <button class="nav-icon">Settings</button>
+            </nav>
+
+            <div class="user-profile">
+                <img src="#" alt="User">
+            </div>
+        </aside>
+
+        <!-- Left Panel -->
+        <section class="left-panel">
+            <!-- Issues Found -->
+            <div class="issues-section">
+                <h2>Issues found</h2>
+                <div class="issue-item">Jack: muzzle deviation</div>
+                <div class="issue-item">Jack: too little water</div>
+                <div class="issue-item">Jill: no forage</div>
+                <div class="issue-item">Jill: training intensity too high</div>
+                <div class="issue-item">Jack: rising stress level</div>
+            </div>
+
+            <!-- Favorites -->
+            <div class="favorites-section">
+                <h2>Favorites</h2>
+                <div class="favorite-item">
+                    <span>John</span>
+                    <div class="progress-circle">75%</div>
+                </div>
+                <div class="favorite-item">
+                    <span>Charlotte</span>
+                    <div class="progress-circle">75%</div>
+                </div>
+            </div>
+
+            <!-- To Do -->
+            <div class="todo-section">
+                <h2>To Do:</h2>
+                <div class="todo-item">
+                    <span>Trailblazer</span>
+                    <div class="progress-circle">75%</div>
+                </div>
+                <div class="task-list">
+                    <div class="task">Clean stables - 15:00-16:00</div>
+                    <div class="task">Feed horses - 14:00-14:15</div>
+                </div>
+            </div>
+
+            <!-- General Notes -->
+            <div class="notes-section">
+                <h2>General Notes</h2>
+                <p>No notes available</p>
+            </div>
+        </section>
+
+        <!-- Center Panel -->
+        <section class="center-panel">
+            <header class="top-bar">
+                <button>Viewing overall</button>
+                <h1>Horses</h1>
+                <select>
+                    <option>Welfare Status: nw - High</option>
+                </select>
+            </header>
+
+            <!-- Overall Score -->
+            <div class="overall-score">
+                <h2>Overall Score</h2>
+
+                <div class="metrics-row">
+                    <div class="metric">
+                        <h3>Nutrition & Hydration</h3>
+                        <div class="progress-bar"></div>
+                    </div>
+
+                    <div class="metric">
+                        <h3>Health</h3>
+                        <div class="progress-bar"></div>
+                        <div class="sub-metric">
+                            <span>Temperature: 34° C</span>
+                        </div>
+                        <div class="sub-metric">
+                            <span>Preventative Care Timeline</span>
+                            <div class="timeline-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Donut Chart -->
+                <div class="donut-chart">
+                    <div class="chart-placeholder">[Donut Chart]</div>
+                    <div class="chart-legend">
+                        <div>MAX (75%)</div>
+                        <div>GRAIN (+2.5%)</div>
+                        <div>SUPPLEMENTS (12.5%)</div>
+                    </div>
+                </div>
+
+                <!-- Stress Level -->
+                <div class="stress-level">
+                    <h3>Stress Level Trend (7 Days)</h3>
+                    <div class="chart-placeholder">[Line Chart]</div>
+                    <div class="stress-indicator">
+                        <div class="circle-progress">75%</div>
+                        <span>Trending</span>
+                    </div>
+                </div>
+
+                <!-- Temperature & Celsius -->
+                <div class="temperature-widget">
+                    <h3>Temperature</h3>
+                    <div class="temp-display">14°</div>
+                    <div class="temp-label">Main Barn</div>
+                    <div class="weather-status">Celsius</div>
+                </div>
+
+                <!-- Cleaning Frequency -->
+                <div class="cleaning-frequency">
+                    <h3>Cleaning frequency</h3>
+                    <div class="chart-placeholder">[Line Chart]</div>
+                </div>
+
+                <!-- Social Interactions -->
+                <div class="social-interactions">
+                    <h3>Social Interactions</h3>
+                    <div class="chart-placeholder">[Network Diagram]</div>
+                </div>
+
+                <!-- Behaviour & Environment -->
+                <div class="metrics-row">
+                    <div class="metric">
+                        <h3>Behaviour</h3>
+                        <div class="progress-bar"></div>
+                    </div>
+
+                    <div class="metric">
+                        <h3>Environment</h3>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Panel - Horses Grid -->
+        <section class="right-panel">
+            <div class="horses-grid">
+                <!-- Horse Card: Jack -->
+                <div class="horse-card">
+                    <h3>Jack</h3>
+                    <img src="#" alt="Jack">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>49%</span>
+                        <span>48%</span>
+                        <span>50%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Jill -->
+                <div class="horse-card">
+                    <h3>Jill</h3>
+                    <img src="#" alt="Jill">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>49%</span>
+                        <span>48%</span>
+                        <span>50%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Pietje -->
+                <div class="horse-card">
+                    <h3>Pietje</h3>
+                    <img src="#" alt="Pietje">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>57%</span>
+                        <span>50%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Michael -->
+                <div class="horse-card">
+                    <h3>Michael</h3>
+                    <img src="#" alt="Michael">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>49%</span>
+                        <span>48%</span>
+                        <span>50%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Sonic -->
+                <div class="horse-card">
+                    <h3>Sonic</h3>
+                    <img src="#" alt="Sonic">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>55%</span>
+                        <span>57%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Charlotte -->
+                <div class="horse-card">
+                    <h3>Charlotte</h3>
+                    <img src="#" alt="Charlotte">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>55%</span>
+                        <span>57%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: John -->
+                <div class="horse-card">
+                    <h3>John</h3>
+                    <img src="#" alt="John">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>48%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Trailblazer -->
+                <div class="horse-card">
+                    <h3>Trailblazer</h3>
+                    <img src="#" alt="Trailblazer">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>55%</span>
+                        <span>57%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Shadow -->
+                <div class="horse-card">
+                    <h3>Shadow</h3>
+                    <img src="#" alt="Shadow">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>48%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+
+                <!-- Horse Card: Charles -->
+                <div class="horse-card">
+                    <h3>Charles</h3>
+                    <img src="#" alt="Charles">
+                    <div class="stats">
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                        <div class="stat-bar"></div>
+                    </div>
+                    <div class="stat-labels">
+                        <span>48%</span>
+                        <span>48%</span>
+                        <span>60%</span>
+                        <span>60%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
