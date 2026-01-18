@@ -1,1 +1,0 @@
-# Equine-Integration-Dashboard
