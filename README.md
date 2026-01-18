@@ -4,7 +4,7 @@ Side project creating the main design from my industry project with Equine Integ
 
 ## Live Demo
 
-**[View the dashboard here](https://equinedashboard.netlify.app/)*
+[View the dashboard here](https://equinedashboard.netlify.app/)
 
 Deployed on Netlify.
 
